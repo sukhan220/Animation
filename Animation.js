@@ -65,9 +65,8 @@ function animate(){
 
 
   for(var j=0;j<circleArray.length;j++){
-    // x=circleArray[j];
-    console.log(x);
-    x +=1;
+    circleArray[j].update();
+    
 
   }
 
