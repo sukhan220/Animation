@@ -61,14 +61,14 @@ for(var i=0;i<100;i++){
 function animate(){
   requestAnimationFrame(animate);
   c.clearRect(0,0,innerWidth,innerHeight);
-  //aCircle.update();
+  aCircle.update();
 
 
-  for(var j=0;j<circleArray.length;j++){
-    circleArray[j].update();
+//   for(var j=0;j<circleArray.length;j++){
+//     circleArray[j].update();
     
 
-  }
+//   }
 
 }
 
